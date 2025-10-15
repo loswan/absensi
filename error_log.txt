@@ -1,0 +1,125 @@
+[2025-10-14 18:05:17] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-14 18:05:17
+Message: Error dengan Simple Google Sheets: cURL error: URL rejected: Malformed input to a URL function
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Sholat Maghrib","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Alfa","keterangan":""},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Hadir"},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Hadir"},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Hadir"},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Alfa","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Alfa","keterangan":""},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-14 18:06:10] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-14 18:06:10
+Message: Error dengan Simple Google Sheets: cURL error: URL rejected: Malformed input to a URL function
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Sholat Maghrib","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Alfa","keterangan":""},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Hadir"},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Hadir"},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Hadir"},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Alfa","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Alfa","keterangan":""},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-14 18:06:25] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-14 18:06:25
+Message: Error dengan Simple Google Sheets: cURL error: URL rejected: Malformed input to a URL function
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Sholat Maghrib","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Alfa","keterangan":""},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Hadir"},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Hadir"},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Hadir"},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Alfa","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Alfa","keterangan":""},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 00:47:40] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 00:47:40
+Message: Error dengan Simple Google Sheets: cURL error: URL rejected: Malformed input to a URL function
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Sholat Maghrib","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit","keterangan":""},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Alfa","keterangan":""},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Hadir"},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Hadir"},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Alfa","keterangan":""},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 00:56:21] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 00:56:21
+Message: Error dengan Simple Google Sheets: cURL error: URL rejected: Malformed input to a URL function
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Ngaji Selasa (Bidayatul Hidayah)","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit","keterangan":""},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Sakit","keterangan":""},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Izin","keterangan":""},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Izin","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 00:58:13] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 00:58:13
+Message: Error dengan Simple Google Sheets: HTTP error 400: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Ngaji Selasa (Bidayatul Hidayah)","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit","keterangan":""},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Sakit","keterangan":""},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Izin","keterangan":""},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Izin","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 00:59:13] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 00:59:13
+Message: Error dengan Simple Google Sheets: HTTP error 400: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 151
+POST Data: {"kegiatan":"Ngaji Selasa (Bidayatul Hidayah)","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit","keterangan":""},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Sakit","keterangan":""},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Izin","keterangan":""},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Izin","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 01:09:07] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 01:09:07
+Message: Error dengan Simple Google Sheets: HTTP error 400: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 156
+POST Data: {"kegiatan":"Ngaji Selasa (Bidayatul Hidayah)","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit","keterangan":""},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Sakit","keterangan":""},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Izin","keterangan":""},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Izin","keterangan":""},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 01:09:16] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 01:09:16
+Message: Error dengan Simple Google Sheets: HTTP error 400: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 156
+POST Data: {"kegiatan":"Ngaji Selasa (Bidayatul Hidayah)","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit"},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Sakit"},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Izin"},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Izin"},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+
+[2025-10-15 01:11:21] ERROR: 
+=== ERROR DETAIL (SIMPLE) ===
+Timestamp: 2025-10-15 01:11:21
+Message: Error dengan Simple Google Sheets: HTTP error 400: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+File: C:\laragon\www\absensi\proses_absen_simple.php
+Line: 156
+POST Data: {"kegiatan":"Ngaji Selasa (Bidayatul Hidayah)","kelompok":"putra","santri":[{"id":"P001","nama":"Bachtiar Akfa Jauhari","kamar":"Kamar 1","status":"Hadir"},{"id":"P002","nama":"Ahmad Fauzi Rahman","kamar":"Kamar 1","status":"Sakit"},{"id":"P003","nama":"Muhammad Ridho Pratama","kamar":"Kamar 2","status":"Sakit"},{"id":"P004","nama":"Abdul Aziz Hakim","kamar":"Kamar 2","status":"Izin"},{"id":"P005","nama":"Fadhil Nurdin Santoso","kamar":"Kamar 3","status":"Izin"},{"id":"P006","nama":"Ilham Maulana Yusuf","kamar":"Kamar 3","status":"Hadir"},{"id":"P007","nama":"Zaki Mubarak Ali","kamar":"Kamar 4","status":"Hadir"},{"id":"P008","nama":"Dani Setiawan Putra","kamar":"Kamar 4","status":"Hadir"},{"id":"P009","nama":"Rofiq Abdillah","kamar":"Kamar 5","status":"Hadir"},{"id":"P010","nama":"Hafidz Imam Syafi'i","kamar":"Kamar 5","status":"Hadir"}]}
+========================================
+

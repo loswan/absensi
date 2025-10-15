@@ -1,0 +1,101 @@
+
+=== ABSENSI SHOLAT MAGHRIB - PUTRA ===
+Tanggal: 2025-10-14
+Timestamp: 2025-10-14 17:36:34
+
+ID: P002 | Nama: Ahmad Fauzi Rahman | Status: Alfa | Keterangan: 
+ID: P004 | Nama: Abdul Aziz Hakim | Status: Alfa | Keterangan: 
+ID: P007 | Nama: Zaki Mubarak Ali | Status: Alfa | Keterangan: 
+ID: P009 | Nama: Rofiq Abdillah | Status: Alfa | Keterangan: 
+
+==================================================
+
+=== ABSENSI NGAJI JUMAT (ARBA&#039;IN AN-NAWAWI) - PUTRA ===
+Tanggal: 2025-10-14
+Timestamp: 2025-10-14 18:04:04
+Status: SENT TO GOOGLE SHEETS
+
+ID: P005 | Nama: Fadhil Nurdin Santoso | Status: Alfa | Keterangan: 
+ID: P008 | Nama: Dani Setiawan Putra | Status: Alfa | Keterangan: 
+ID: P009 | Nama: Rofiq Abdillah | Status: Alfa | Keterangan: 
+ID: P010 | Nama: Hafidz Imam Syafi&#039;i | Status: Sakit | Keterangan: 
+
+==================================================
+
+=== ABSENSI NGAJI SELASA (BIDAYATUL HIDAYAH) - PUTRA ===
+Tanggal: 2025-10-15
+Timestamp: 2025-10-15 01:14:04
+Status: SENT TO GOOGLE SHEETS (Simple cURL)
+
+ID: P002 | Nama: Ahmad Fauzi Rahman | Status: Sakit | Keterangan: 
+ID: P003 | Nama: Muhammad Ridho Pratama | Status: Sakit | Keterangan: 
+ID: P004 | Nama: Abdul Aziz Hakim | Status: Izin | Keterangan: 
+ID: P005 | Nama: Fadhil Nurdin Santoso | Status: Izin | Keterangan: 
+
+==================================================
+
+=== ABSENSI NGAJI RABU (LUBBUL USHUL) - PUTRA ===
+Tanggal: 2025-10-15
+Timestamp: 2025-10-15 01:14:54
+Status: SENT TO GOOGLE SHEETS (Simple cURL)
+
+ID: P003 | Nama: Muhammad Ridho Pratama | Status: Alfa | Keterangan: 
+ID: P004 | Nama: Abdul Aziz Hakim | Status: Alfa | Keterangan: 
+ID: P010 | Nama: Hafidz Imam Syafi&#039;i | Status: Izin | Keterangan: 
+
+==================================================
+
+============================================================
+ABSENSI LOG - SUCCESS
+============================================================
+Timestamp: 2025-10-15 04:15:26
+Tanggal: 2025-10-15
+Kegiatan: Sholat Isya
+Kelompok: Putra
+Total Santri: 74
+Santri Tidak Hadir: 40
+Rows Updated: 40
+Status: BERHASIL DIKIRIM KE GOOGLE SHEETS
+
+DETAIL KETIDAKHADIRAN:
+- ID: P010 | Nama: Aufal Wafa Dzil Ma'wa | Status: Alpha
+- ID: P011 | Nama: Azwar Rasyid | Status: Alpha
+- ID: P012 | Nama: Muh. Irfan | Status: Alpha
+- ID: P013 | Nama: Ahmad Munawwir | Status: Alpha
+- ID: P014 | Nama: Kevin Verrell Nurreyhan | Status: Alpha
+- ID: P015 | Nama: Muhammad Husni Mubarok | Status: Alpha
+- ID: P016 | Nama: Muh. Mahmud Sidiq | Status: Alpha
+- ID: P017 | Nama: Varas Aula Zakan Tajalla | Status: Alpha
+- ID: P018 | Nama: Muh. Lutfi Hidayat | Status: Alpha
+- ID: P019 | Nama: Furqan Aditya Putra | Status: Alpha
+- ID: P020 | Nama: M. Hasan | Status: Alpha
+- ID: P021 | Nama: KMS Abizar | Status: Alpha
+- ID: P022 | Nama: Arinal Haqqa Anwar | Status: Alpha
+- ID: P023 | Nama: Arelian Muhamad Fatin | Status: Alpha
+- ID: P027 | Nama: Moch. Fathan Hasan Ali | Status: Alpha
+- ID: P028 | Nama: Muhammad Muhaimin Thohri | Status: Alpha
+- ID: P038 | Nama: Muh. Syarifudin Hidayat | Status: Alpha
+- ID: P039 | Nama: Ahmad Riky | Status: Alpha
+- ID: P040 | Nama: Sulthan Noor Imbawinanta | Status: Alpha
+- ID: P041 | Nama: Ahmad Thobibuddin Mahfud | Status: Alpha
+- ID: P042 | Nama: Asyraf Zafir Wafa | Status: Alpha
+- ID: P043 | Nama: Muh. Naufal Fadli | Status: Alpha
+- ID: P044 | Nama: Lutfi Khoirul Wulida Sani | Status: Alpha
+- ID: P045 | Nama: Muhammad Hanif Faiqun | Status: Alpha
+- ID: P046 | Nama: Moh. Farhanuddin | Status: Alpha
+- ID: P047 | Nama: Ahmad Azwar Said | Status: Alpha
+- ID: P048 | Nama: Danial Alexa Syauqy | Status: Alpha
+- ID: P049 | Nama: Farijil Humam | Status: Alpha
+- ID: P050 | Nama: Aldian Chindra Aji | Status: Alpha
+- ID: P051 | Nama: Abizar Khipari | Status: Alpha
+- ID: P052 | Nama: liz Roizul Fahmi | Status: Alpha
+- ID: P061 | Nama: Tidar Ari Kususma | Status: Alpha
+- ID: P064 | Nama: Ahmad Munawwir | Status: Alpha
+- ID: P065 | Nama: Aqila Ahmada | Status: Alpha
+- ID: P066 | Nama: Akhmad Choirur Rozikin | Status: Alpha
+- ID: P067 | Nama: Ahmad Agil Tsabata | Status: Alpha
+- ID: P068 | Nama: Maulana Anwar | Status: Alpha
+- ID: P069 | Nama: Muh. Isomudin Hadziq | Status: Alpha
+- ID: P071 | Nama: Ivan Irawan Firdausi | Status: Izin
+- ID: P074 | Nama: Ilham Himawan Rosadi | Status: Alpha
+============================================================

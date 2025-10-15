@@ -1,0 +1,500 @@
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 249
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 254
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 261
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 271
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 24
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 40
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 32
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 45
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 16
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 51
+[14-Oct-2025 17:51:56 UTC] PHP Deprecated:  Creation of dynamic property Google\Service\Sheets::$serviceName is deprecated in C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets.php on line 74
+[14-Oct-2025 17:51:57 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(160): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 249
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 254
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 261
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 271
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 24
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 40
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 32
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 45
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 16
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 51
+[14-Oct-2025 17:52:37 UTC] PHP Deprecated:  Creation of dynamic property Google\Service\Sheets::$serviceName is deprecated in C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets.php on line 74
+[14-Oct-2025 17:52:38 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(160): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 249
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 254
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 261
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 271
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 24
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 40
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 32
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 45
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 16
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 51
+[14-Oct-2025 17:52:56 UTC] PHP Deprecated:  Creation of dynamic property Google\Service\Sheets::$serviceName is deprecated in C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets.php on line 74
+[14-Oct-2025 17:52:57 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(160): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 249
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 254
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 261
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Model.php on line 271
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 24
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 40
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 32
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 45
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 16
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Collection.php on line 51
+[14-Oct-2025 17:53:51 UTC] PHP Deprecated:  Creation of dynamic property Google\Service\Sheets::$serviceName is deprecated in C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets.php on line 74
+[14-Oct-2025 17:53:52 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(160): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:56:57 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(209): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:57:28 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(209): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:59:00 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(209): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:59:05 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(209): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 17:59:26 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(209): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[14-Oct-2025 18:00:00 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\laragon\www\absensi\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\laragon\www\absensi\vendor\google\auth\src\Credentials\ServiceAccountCredentials.php(115): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(156): Google\Auth\Credentials\ServiceAccountCredentials->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#17 C:\laragon\www\absensi\vendor\google\auth\src\Middleware\AuthTokenMiddleware.php(133): Google\Auth\Middleware\AuthTokenMiddleware->fetchToken()
+#18 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): Google\Auth\Middleware\AuthTokenMiddleware->Google\Auth\Middleware\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#19 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#20 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#21 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#22 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#23 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#24 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#25 C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#26 C:\laragon\www\absensi\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#27 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(74): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#28 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Task\Runner.php(181): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#29 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Http\REST.php(58): Google_Task_Runner->run()
+#30 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Client.php(779): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array)
+#31 C:\laragon\www\absensi\vendor\google\apiclient\src\Google\Service\Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#32 C:\laragon\www\absensi\vendor\google\apiclient-services\src\Sheets\Resource\Spreadsheets.php(110): Google_Service_Resource->call('get', Array, 'Google\\Service\\...')
+#33 C:\laragon\www\absensi\proses_absen.php(209): Google\Service\Sheets\Resource\Spreadsheets->get('1W6s0Osq_09tN3K...')
+#34 {main}
+  thrown in C:\laragon\www\absensi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[15-Oct-2025 01:09:05 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:05 - Initializing Google Sheets with ID: 1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04
+[15-Oct-2025 01:09:05 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:05 - Starting JWT token generation...
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - JWT token generated, requesting access token...
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - Access token obtained successfully
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - Testing connection to spreadsheet...
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - Connection test successful
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - Appending data to sheet: Log Absensi
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - Request URL: https://sheets.googleapis.com/v4/spreadsheets/1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04/values/Log%20Absensi:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+[15-Oct-2025 01:09:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:06 - POST data: {"range":"Log Absensi!A:Z","majorDimension":"ROWS","values":[["2025-10-15 01:09:05","P002","Ahmad Fauzi Rahman","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:09:05","P003","Muhammad Ridho Pratama","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:09:05","P004","Abdul Aziz Hakim","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"],["2025-10-15 01:09:05","P005","Fadhil Nurdin Santoso","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"]]}
+[15-Oct-2025 01:09:07 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:07 - Response code: 400
+[15-Oct-2025 01:09:07 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:07 - Error response: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Initializing Google Sheets with ID: 1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Starting JWT token generation...
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - JWT token generated, requesting access token...
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Access token obtained successfully
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Testing connection to spreadsheet...
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Connection test successful
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Appending data to sheet: Log Absensi
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - Request URL: https://sheets.googleapis.com/v4/spreadsheets/1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04/values/Log%20Absensi:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+[15-Oct-2025 01:09:15 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:15 - POST data: {"range":"Log Absensi!A:Z","majorDimension":"ROWS","values":[["2025-10-15 01:09:15","P002","Ahmad Fauzi Rahman","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:09:15","P003","Muhammad Ridho Pratama","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:09:15","P004","Abdul Aziz Hakim","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"],["2025-10-15 01:09:15","P005","Fadhil Nurdin Santoso","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"]]}
+[15-Oct-2025 01:09:16 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:16 - Response code: 400
+[15-Oct-2025 01:09:16 UTC] [SimpleGoogleSheets] 2025-10-15 01:09:16 - Error response: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[15-Oct-2025 01:11:20 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:20 - Initializing Google Sheets with ID: 1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04
+[15-Oct-2025 01:11:20 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:20 - Starting JWT token generation...
+[15-Oct-2025 01:11:20 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:20 - JWT token generated, requesting access token...
+[15-Oct-2025 01:11:20 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:20 - Access token obtained successfully
+[15-Oct-2025 01:11:20 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:20 - Testing connection to spreadsheet...
+[15-Oct-2025 01:11:21 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:21 - Connection test successful
+[15-Oct-2025 01:11:21 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:21 - Appending data to sheet: Log Absensi
+[15-Oct-2025 01:11:21 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:21 - Request URL: https://sheets.googleapis.com/v4/spreadsheets/1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04/values/Log%20Absensi:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+[15-Oct-2025 01:11:21 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:21 - POST data: {"range":"Log Absensi!A:Z","majorDimension":"ROWS","values":[["2025-10-15 01:11:20","P002","Ahmad Fauzi Rahman","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:11:20","P003","Muhammad Ridho Pratama","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:11:20","P004","Abdul Aziz Hakim","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"],["2025-10-15 01:11:20","P005","Fadhil Nurdin Santoso","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"]]}
+[15-Oct-2025 01:11:21 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:21 - Response code: 400
+[15-Oct-2025 01:11:21 UTC] [SimpleGoogleSheets] 2025-10-15 01:11:21 - Error response: {
+  "error": {
+    "code": 400,
+    "message": "Request range[Log Absensi] does not match value's range[Log Absensi!A:Z]",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+[15-Oct-2025 01:14:04 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:04 - Initializing Google Sheets with ID: 1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04
+[15-Oct-2025 01:14:04 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:04 - Starting JWT token generation...
+[15-Oct-2025 01:14:04 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:04 - JWT token generated, requesting access token...
+[15-Oct-2025 01:14:04 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:04 - Access token obtained successfully
+[15-Oct-2025 01:14:04 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:04 - Testing connection to spreadsheet...
+[15-Oct-2025 01:14:05 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:05 - Connection test successful
+[15-Oct-2025 01:14:05 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:05 - Appending data to sheet: Log Absensi
+[15-Oct-2025 01:14:05 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:05 - Request URL: https://sheets.googleapis.com/v4/spreadsheets/1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04/values/Log%20Absensi:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+[15-Oct-2025 01:14:05 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:05 - POST data: {"majorDimension":"ROWS","values":[["2025-10-15 01:14:04","P002","Ahmad Fauzi Rahman","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:14:04","P003","Muhammad Ridho Pratama","Ngaji Selasa (Bidayatul Hidayah)","Sakit","","2025-10-15"],["2025-10-15 01:14:04","P004","Abdul Aziz Hakim","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"],["2025-10-15 01:14:04","P005","Fadhil Nurdin Santoso","Ngaji Selasa (Bidayatul Hidayah)","Izin","","2025-10-15"]]}
+[15-Oct-2025 01:14:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:06 - Response code: 200
+[15-Oct-2025 01:14:06 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:06 - Data successfully appended
+[15-Oct-2025 01:14:54 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:54 - Initializing Google Sheets with ID: 1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04
+[15-Oct-2025 01:14:54 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:54 - Starting JWT token generation...
+[15-Oct-2025 01:14:54 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:54 - JWT token generated, requesting access token...
+[15-Oct-2025 01:14:54 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:54 - Access token obtained successfully
+[15-Oct-2025 01:14:54 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:54 - Testing connection to spreadsheet...
+[15-Oct-2025 01:14:55 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:55 - Connection test successful
+[15-Oct-2025 01:14:55 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:55 - Appending data to sheet: Log Absensi
+[15-Oct-2025 01:14:55 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:55 - Request URL: https://sheets.googleapis.com/v4/spreadsheets/1W6s0Osq_09tN3KKuXBFLj3noVlCNp7GRJT8f-MwIn04/values/Log%20Absensi:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+[15-Oct-2025 01:14:55 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:55 - POST data: {"majorDimension":"ROWS","values":[["2025-10-15 01:14:54","P003","Muhammad Ridho Pratama","Ngaji Rabu (Lubbul Ushul)","Alfa","","2025-10-15"],["2025-10-15 01:14:54","P004","Abdul Aziz Hakim","Ngaji Rabu (Lubbul Ushul)","Alfa","","2025-10-15"],["2025-10-15 01:14:54","P010","Hafidz Imam Syafi&#039;i","Ngaji Rabu (Lubbul Ushul)","Izin","","2025-10-15"]]}
+[15-Oct-2025 01:14:56 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:56 - Response code: 200
+[15-Oct-2025 01:14:56 UTC] [SimpleGoogleSheets] 2025-10-15 01:14:56 - Data successfully appended
